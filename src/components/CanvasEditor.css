@@ -1,0 +1,70 @@
+.canvas-editor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+.canvas-wrapper {
+  border: 2px solid #ddd;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.button-container {
+  display: flex;
+  gap: 15px; /* Adds space between buttons */
+  justify-content: center; /* Centers buttons horizontally */
+  flex-wrap: wrap; /* Makes the buttons wrap on smaller screens */
+}
+
+.control-button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 120px; /* Ensures buttons are of equal width */
+}
+
+.control-button:hover {
+  background-color: #0056b3;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.instructions {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+.footer span {
+  font-size: 1.2rem;
+}
