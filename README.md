@@ -19,6 +19,10 @@ A powerful and interactive canvas editor built with React.js and Fabric.js. This
 
 ## Getting Started
 
+![alt text](<Screenshot 2025-01-15 120156.png>)
+
+![alt text](<Screenshot 2025-01-15 120233.png>)
+
 ### Prerequisites
 
 Make sure you have the following installed on your local machine:
