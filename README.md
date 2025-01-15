@@ -50,23 +50,6 @@ Make sure you have the following installed on your local machine:
 4.  Add Shapes: Choose between a circle or rectangle by clicking the respective buttons. Shapes can be resized and moved around.
 5.  Download Image: Once you've finished editing the canvas, click the "Download" button to save the modified canvas as a PNG image.
 
-### Code Structure
-
-canvas-editor/
-├── src/
-│ ├── components/
-│ │ ├── CanvasEditor.jsx # Main canvas editor component
-│ │ ├── ImageGallery.jsx # Image gallery with search functionality
-│ │ ├── SearchBar.jsx # Search bar for querying images
-│ ├── App.js # Main React component
-│ ├── index.js # Entry point for React application
-├── public/
-│ └── index.html # HTML file
-├── package.json # Project dependencies and scripts
-└── README.md # Project documentation
-
-### Styling
-
 The application uses custom CSS (or optionally Tailwind CSS) for styling the canvas and controls. The main style files are:
 
 CanvasEditor.css: Styles for the canvas and control buttons.
